@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CoolSharedLib"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-betwixt-0.8.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-cli.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-codec.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-collections.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-configuration.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-discovery.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-email-1.2.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-io.jar" sourcepath="C:/Users/zzy/.m2/repository/commons-io/commons-io/1.2/commons-io-1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-lang.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-net.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/commons/commons-pool.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/logging/log4j.jar" sourcepath="C:/Users/zzy/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13-sources.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/oracle/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/servlet/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/xml/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/xml/jdom.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/xml/simple-xml-2.6.2.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/xml/stax-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/xml/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/xml/xpp3-1.1.3_8.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/flex-messaging/flex-messaging-common.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/flex-messaging/flex-messaging-core.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/flex-messaging/flex-messaging-opt.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/flex-messaging/flex-messaging-proxy.jar"/>
+	<classpathentry kind="lib" path="/CoolSharedLib/lib/flex-messaging/flex-messaging-remoting.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_09"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

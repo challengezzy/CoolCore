@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     CoolCore    
+     ====================================================================== 
+-->
+<project name="CoolCore" basedir="." default="jar">
+
+	<property name="lib.classpath" value="../../CoolSharedLib/lib" />
+	<property name="compile.src" value="../src" />
+	<property name="compile.dest" value="./temp" />
+	<property name="jar.dest" value="../jar" />
+	<property name="jar.filename" value="coolcore.jar" />
+
+	<path id="java.classpath">
+		<fileset dir="${lib.classpath}" includes="commons/*.jar" />
+		<fileset dir="${lib.classpath}" includes="logging/*.jar" />
+		<fileset dir="${lib.classpath}" includes="oracle/*.jar" />
+		<fileset dir="${lib.classpath}" includes="servlet/*.jar" />
+		<fileset dir="${lib.classpath}" includes="xml/*.jar" />
+		<fileset dir="${lib.classpath}" includes="flex-messaging/*.jar" />
+	</path>
+
+
+	<target name="jar" depends="compile">
+		<mkdir dir="${jar.dest}" />
+		<jar destfile="${jar.dest}/${jar.filename}" basedir="${compile.dest}">
+			<fileset dir="${compile.src}" includes="**/*.java"/>
+		</jar>
+		<delete dir="${compile.dest}"/>
+	</target>
+
+	<target name="compile" depends="clean">
+		<mkdir dir="${compile.dest}" />
+		<javac debug="true" srcdir="${compile.src}" encoding="UTF-8" 
+				destdir="${compile.dest}" nowarn="true">
+			<classpath refid="java.classpath" />
+		</javac>
+	</target>
+
+	<target name="clean">
+		<delete dir="${compile.dest}" />
+		<delete dir="${jar.dest}" />
+	</target>
+
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<init-param key="PROJECT_NAME" value="APMS2.0" descr="项目名称" />
+	<init-param key="log4jfile" value="Log4j.properties" descr="日志属性文件" />
+	
+	<datasources>
+		<datasource name="datasource_default">
+			<driver>oracle.jdbc.driver.OracleDriver</driver>
+			<url>jdbc:oracle:thin:yapei_test/yapei_test@192.168.1.107:1521:ORCL</url>
+			<initsize>2</initsize>
+			<poolsize>10</poolsize>
+			<validationQuery>select 1 from dual</validationQuery> 
+		</datasource>
+		<datasource name="datasource_apms">
+			<driver>oracle.jdbc.driver.OracleDriver</driver>
+			<url>jdbc:oracle:thin:yapei_test/yapei_test@192.168.1.107:1521:ORCL</url>
+			<initsize>1</initsize>
+			<poolsize>5</poolsize>
+			<validationQuery>select 1 from dual</validationQuery> 
+		</datasource>
+		
+	</datasources>
+	<log4j>
+		<logpath>C:/novalog/</logpath>
+		<level>DEBUG</level>
+		<outputtype>3</outputtype>
+		<clspath>smartx</clspath>
+	</log4j>
+</root>
